@@ -78,7 +78,7 @@ This repository is organized by **pattern**, **topic**, and **difficulty**, maki
 
 ## [![LeetCode user the_Bappy](https://img.shields.io/badge/LeetCode-the_Bappy-orange)](https://leetcode.com/the_Bappy/)
 
-> 🧩 View the full [LeetCode submissions](https://leetcode.com/the_Bappy/submissions/) or check out the [detailed progress list](./leetcode-progress.md)
+> 🧩 View the full [LeetCode submissions](https://leetcode.com/the_Bappy/) or check out the [detailed progress list](./leetcode-progress.md)
 
 
 ---
