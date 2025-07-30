@@ -76,15 +76,10 @@ This repository is organized by **pattern**, **topic**, and **difficulty**, maki
 
 ---
 
-## 📈 Progress Tracker
+## [![LeetCode user the_Bappy](https://img.shields.io/badge/LeetCode-the_Bappy-orange)](https://leetcode.com/the_Bappy/)
 
-| Date       | Problem                            | Difficulty | Status     |
-|------------|-------------------------------------|------------|------------|
-| 2025-07-25 | Two Sum                             | Easy       | ✅ Solved   |
-| 2025-07-26 | Longest Substring Without Repeating | Medium     | ✅ Solved   |
-| 2025-07-27 | Median of Two Sorted Arrays         | Hard       | 🚧 Solving |
+> 🧩 View the full [LeetCode submissions](https://leetcode.com/the_Bappy/submissions/) or check out the [detailed progress list](./leetcode-progress.md)
 
-> 🧩 View the full [LeetCode list here](./leetcode-progress.md)
 
 ---
 
