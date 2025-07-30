@@ -1,5 +1,5 @@
-![Data Structures & Algorithms Banner](./A_flat-style_![Uploading dsa.png…]()
-digital_illustration_with_clean_lines.png)
+![Data Structures & <img width="1536" height="1024" alt="dsa" src="https://github.com/user-attachments/assets/042e7483-ecfe-4138-99ad-66e16efc8e63" />
+Algorithms Banner](./A_flat-style_digital_illustration_with_clean_lines.png)
 
 # 🧠 Data Structures & Algorithms — Problem Solving Journey
 
