@@ -1,5 +1,4 @@
-
-![Uploading dsa.png…]()
+<img width="1536" height="1024" alt="dsa" src="https://github.com/user-attachments/assets/6e33ded4-953e-4fb1-8288-c618719a8cc9" />
 
 # 🧠 Data Structures & Algorithms — Problem Solving Journey
 
