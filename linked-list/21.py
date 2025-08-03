@@ -17,3 +17,6 @@ class Solution:
             result = list2
             result.next = self.mergedTwoLists(list1, list2.next)
         return result
+
+
+    
