@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["djikstra", "succ"]
+  "cSpell.words": [
+    "djikstra",
+    "succ",
+    "warshall"
+  ]
 }
