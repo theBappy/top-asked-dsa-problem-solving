@@ -3,10 +3,6 @@
 //      T.C for stringIndices can be represented as O(m + n), where m is the total number of characters in wordsContainer and n is the average length of words in wordsQuery.
 //S.C : Each node in the trie has an array of 26 pointers (assuming only lowercase English alphabets), 
 //      resulting in a space complexity of O(26 * m) for storing all characters of words in wordsContainer. m = total number of characters in all words in wordsContainer.
-#include <vector>
-#include <string>
-using namespace std;
-
 class Solution {
 public:
 
@@ -20,7 +16,7 @@ public:
         temp->idx = i;
 
         for(int i = 0; i<26; i++) {
-            temp->children[i] = nullptr;
+            temp->children[i] = NULL;
         }
         return temp;
     }
@@ -32,12 +28,11 @@ public:
         for(int j = n-1; j >= 0; j--) {
             int ch_idx = word[j] - 'a';
 
-            if(pCrawl->children[ch_idx] == nullptr) {
+            if(pCrawl->children[ch_idx] == NULL) {
                 pCrawl->children[ch_idx] = getNode(i);
             }
             pCrawl = pCrawl->children[ch_idx];
             
-            // Always set idx to the shortest word index at this node
             if(wordsContainer[pCrawl->idx].size() > n) {
                 pCrawl->idx = i;
             }
@@ -51,7 +46,7 @@ public:
         for(int i = n-1; i >= 0; i--) {
             int ch_idx = word[i]-'a';
             pCrawl = pCrawl->children[ch_idx];
-            if(pCrawl == nullptr) {
+            if(pCrawl == NULL) {
                 return result_idx;
             }
             result_idx = pCrawl->idx;
@@ -64,15 +59,7 @@ public:
         int n = wordsQuery.size();
         vector<int> result(n);
 
-        // Find the index of the shortest word in wordsContainer
-        int minIdx = 0;
-        for(int i = 1; i < m; i++) {
-            if(wordsContainer[i].size() < wordsContainer[minIdx].size()) {
-                minIdx = i;
-            }
-        }
-
-        trieNode* root = getNode(minIdx);
+        trieNode* root = getNode(0);
 
         for(int i = 0 ; i < m; i++) {
             if(wordsContainer[root->idx].size() > wordsContainer[i].size()) {
