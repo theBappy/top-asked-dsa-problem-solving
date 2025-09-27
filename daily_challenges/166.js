@@ -18,7 +18,7 @@ var fractionToDecimal = function(numerator, denominator) {
     result.push(integerDiv.toString())
 
     let remainder = absNum % absDen
-    if(remainder == 0){
+    if(remainder === 0){
         return result.join('')
     }
     result.push('.')
