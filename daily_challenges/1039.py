@@ -7,6 +7,7 @@ class Solution(object):
             return 0
         if self.t[i][j] != -1:
             return self.t[i][j]
+        result = sys.maxsize
         for k in range(i+1, j):
             wt = (values[i] * values[j] * values[k]) + self.solve(values, i, k) + self.solve(values, k, j)
             result = min(result, wt)
