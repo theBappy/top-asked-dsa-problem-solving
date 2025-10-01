@@ -1,6 +1,8 @@
 
 # Tc = O(n^2)
 # Sc = O(n^2) [each time creating new array]
+
+from typing import List
 class Solution:
     def triangularSum(self, nums: List[int]) -> int:
         n = len(nums)
@@ -17,5 +19,5 @@ class Solution:
         n = len(nums)
         for size in range(n-1, 0, -1):
             for i in range(size):
-                nums[i] =( nums[i] + nums[i+1]) % 10
+                nums[i] = (nums[i] + nums[i+1]) % 10
         return nums[0]
