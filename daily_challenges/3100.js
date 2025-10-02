@@ -16,6 +16,7 @@ var maxBottlesDrunk = function (numBottles, numExchange) {
 };
 
 
+//  Sridhara Acharya’s / quadratic formula
 var maxBottlesDrunk = function (numBottles, numExchange) {
   return Math.floor(
     numBottles +

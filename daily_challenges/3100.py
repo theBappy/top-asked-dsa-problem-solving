@@ -14,6 +14,7 @@ class Solution:
 import math
 
 
+# Sridhara Acharya’s / quadratic formula
 class Solution:
     def maxBottlesDrunk(self, numBottles: int, numExchange: int) -> int:
         return int(
