@@ -8,3 +8,4 @@ class Solution:
                 return [mp[remaining], i]
             mp[num] = i
         return []
+

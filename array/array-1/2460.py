@@ -1,3 +1,5 @@
+
+from typing import List
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -17,6 +19,7 @@ class Solution:
 
 
 
+
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -30,3 +33,8 @@ class Solution:
                     nums[j], nums[i] = nums[i], nums[j]
                 j += 1
         return nums
+    
+
+        
+    
+
