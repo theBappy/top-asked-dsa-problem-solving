@@ -34,7 +34,7 @@ var applyOperations = function (nums) {
     const n = nums.length
     let j = 0
     for (let i = 0; i < n; i++) {
-        if (i + 1 < n && nums[i] == nums[i + 1] && nums[i] !== 0) {
+        if (i + 1 < n && nums[i] === nums[i + 1] && nums[i] !== 0) {
             nums[i] *= 2
             nums[i + 1] = 0
         }

@@ -17,13 +17,3 @@ var twoSum = function(nums, target) {
     return []
 };
 
-var twoSum = function(nums, target){
-    let list = {}
-    for(let i = 0; i<nums.length; i++){
-        let diff = target - nums[i]
-        if(list.hasOwnProperty(diff)){
-            return [list[diff], i]
-        }
-        list[nums[i]] = i
-    }
-}
