@@ -23,7 +23,7 @@ class Solution:
                 return max(x1, x2)
 
             elif x1 > x4:
-                hight = px - 1
+                high = px - 1
             else:
                 low = px + 1
         return -1.0

@@ -5,7 +5,7 @@
 var applyOperations = function(nums) {
    const n = nums.length
     for(let i = 0; i < n-1; i++){
-        if(nums[i] == nums[i + 1]){
+        if(nums[i] === nums[i + 1]){
             nums[i] *= 2
             nums[i + 1] = 0
         }
@@ -13,8 +13,8 @@ var applyOperations = function(nums) {
     let j = 0
     for(let i = 0; i < n; i++){
         if(nums[i] !== 0){
-            nums[j] = nums[i]
-            j += 1
+                nums[j] = nums[i]
+                j += 1
         }
     }
     while(j < n){

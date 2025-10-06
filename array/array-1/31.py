@@ -11,8 +11,8 @@ class Solution:
         if swap_index != -1:
             just_greater = swap_index
             for j in range(n-1, swap_index, -1):
-                if nums[j] >  nums[swap_index]:
+                if nums[j] > nums[swap_index]:
                     just_greater = j
                     break
             nums[swap_index], nums[just_greater] = nums[just_greater], nums[swap_index]
-        nums[swap_index+1:] = reversed(nums[swap_index+1])
+        nums[swap_index+1:] = reversed(nums[swap_index+1:])

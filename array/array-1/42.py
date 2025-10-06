@@ -11,7 +11,7 @@ class Solution:
                     left_max = height[left]
                 else:
                     water += left_max - height[left]
-                    left += 1
+                left += 1
             else:
                 if height[right] >= right_max:
                     right_max = height[right]
