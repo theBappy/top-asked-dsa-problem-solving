@@ -1,16 +1,7 @@
-# 1, 26, 27, 283, 2460, 11, 15, 18, 31, 4, 42, Kadane's Algo, 1749, 53, 152
+# 1, 26, 27, 283, 2460, 11, 15, 18, 31, 4, 42, Kadane's Algo, 1749, 53, 152, 918, 1488
 
 from typing import List
 
 class Solution:
-    def maxProduct(self, nums: List[int]) -> int:
-        r = nums[0]
-        imax = r 
-        imin = r
-        for i in range(1, len(nums)):
-            if nums[i] < 0:
-                imax, imin = imin, imax
-            imax = max(nums[i], imax * nums[i])
-            imin = min(nums[i], imin* nums[i])
-        return r
+
 
