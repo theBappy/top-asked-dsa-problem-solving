@@ -19,7 +19,7 @@ class Solution:
 
             if x1 <= x4 and x2 <= x3:
                 if (m + n) % 2 == 0:
-                    return (max(x1, x2) + min(x4)) // 2.0
+                    return (max(x1, x2) + min(x3, x4)) // 2.0
                 return max(x1, x2)
 
             elif x1 > x4:

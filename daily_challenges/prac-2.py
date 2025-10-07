@@ -1,7 +1,9 @@
 # 1, 26, 27, 283, 2460, 11, 15, 18, 31, 4, 42, Kadane's Algo, 1749, 53, 152, 918, 1488
 
 from typing import List
+from bisect import bisect_left
 
 class Solution:
 
+        
 
