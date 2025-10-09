@@ -1,3 +1,8 @@
+
+from typing import List
+from bisect import bisect_left
+import math
+
 class Solution:
     def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:
         potions.sort()
@@ -11,8 +16,6 @@ class Solution:
             index = bisect.bisect_left(potions, required_strength)
             result.append(potion_count - index)
         return result
-
-
 
 
  
@@ -36,7 +39,7 @@ class Solution(object):
 
         for i in range(m):
             spell = spells[i]
-            minPotion = ceil(success * 1.0 / spell)
+            minPotion = math.ceil(success * 1.0 / spell)
             if minPotion > maxPotion:
                 answer.append(0)
                 continue

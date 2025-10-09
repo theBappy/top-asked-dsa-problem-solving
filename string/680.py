@@ -1,3 +1,6 @@
+
+# Tc = O(n)
+# Sc = O(1)
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         def check(left, right):
@@ -15,5 +18,3 @@ class Solution:
             left, right = left + 1, right - 1
         return True
 
-# Tc = O(n)
-# Sc = O(1)

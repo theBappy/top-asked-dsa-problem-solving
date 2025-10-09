@@ -1,11 +1,10 @@
 
-
 # Expansion from center
 # Tc = O(n^2)
 # Sc = O(1)
 class Solution:
     def isPal(self, string, left, right):
-        while left > 0 and right < len(string) and string[left-1] == string[right+1]:
+        while left > 0 and right < len(string) -1 and string[left-1] == string[right+1]:
             left -= 1
             right += 1
         return left, right, right - left + 1
@@ -31,27 +30,36 @@ class Solution:
 
 # Tc = O(n^2)
 # Sc = O(n^2)
-class Solution: 
+class Solution:
     def __init__(self):
-        self.t = [[-1] * 1001 for _ in range]
-    def solve(self, s, i, j):
-        if i >= j:
+        self.t = None
+
+    def solve(self, s, l, r):
+        if l >= r:
             return True
-        if self.t[i][j] != -1:
-            return self.t[i][j]
-        if s[i] == s[j]:
-            self.t[i][j] = self.solve(s, i+1, j-1)
-            return self.t[i][j]
-        self.t[i][j] == False
-        return True
-    def longestPalindrome(self, s:str) -> str:
+
+        if self.t[l][r] is not None:
+            return self.t[l][r]
+
+        if s[l] == s[r]:
+            self.t[l][r] = self.solve(s, l + 1, r - 1)
+            return self.t[l][r]
+
+        self.t[l][r] = False
+        return False
+
+    def longestPalindrome(self, s: str) -> str:
         n = len(s)
-        maxLen = float('-inf')
-        sp = 0
+        self.t = [[None] * n for _ in range(n)]
+
+        maxlen = float('-inf')
+        startingIndex = 0
+
         for i in range(n):
             for j in range(i, n):
                 if self.solve(s, i, j):
-                    if j - i + 1 > maxLen:
-                        maxLen = j - i + 1
-                        sp = i
-        return s[sp:sp+maxLen]
+                    if j - i + 1 > maxlen:
+                        startingIndex = i
+                        maxlen = j - i + 1
+
+        return s[startingIndex:startingIndex + maxlen]

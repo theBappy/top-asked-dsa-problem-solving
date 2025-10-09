@@ -1,10 +1,6 @@
 # 1, 26, 27, 283, 2460, 11, 15, 18, 31, 4, 42, Kadane's Algo, 1749, 53, 152, 918, # 1488, 2300
-# String: 344, 125, 680, 2108
+# String: 344, 125, 680, 2108, 5
 
 from typing import List
-from bisect import bisect_left
 
 class Solution:
-
-        
-
