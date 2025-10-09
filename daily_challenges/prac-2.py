@@ -1,6 +1,8 @@
 # 1, 26, 27, 283, 2460, 11, 15, 18, 31, 4, 42, Kadane's Algo, 1749, 53, 152, 918, # 1488, 2300
-# String: 344, 125, 680, 2108, 5
+# String: 344, 125, 680, 2108, 5, 3494
 
 from typing import List
 
-class Solution:
+
+
+
