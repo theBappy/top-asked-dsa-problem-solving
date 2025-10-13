@@ -4,6 +4,10 @@
 # Group Anagrams: 49, 242, 2273, 76
 # Pattern Matching: 10, 44
 
+# 5, 10, 44 (today) Expansion from center, Manacher's algo, KMP
+
+# two pointers: 3, 1695, 2799, 2302, 713
+
 from typing import List
 
 

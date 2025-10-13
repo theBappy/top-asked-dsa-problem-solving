@@ -42,3 +42,5 @@ function longestPalindrome(s){
     }
     return s.substring(start, start + maxLen)
 }
+
+
