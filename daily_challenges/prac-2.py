@@ -6,20 +6,12 @@
 
 # 5, 10, 44 (today) Expansion from center, Manacher's algo, KMP
 
-# two pointers: 3, 1695, 2799, 2302, 713. 209, 239, 3349, 3350, 2598
+# two pointers: 3, 1695, 2799, 2302, 713, 209, 239, 3349, 3350, 2598, 424, 567
 
-from collections import defaultdict, deque
+from collections import defaultdict, deque, Counter
 from typing import List
 
-
-
-    
-        
-
-
-
-    
-
+class Solution:
 
 
 
