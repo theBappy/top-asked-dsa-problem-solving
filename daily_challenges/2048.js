@@ -24,3 +24,4 @@ var nextBeautifulNumber = function (n) {
     }
     return -1;
 };
+

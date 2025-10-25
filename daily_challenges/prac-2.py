@@ -10,7 +10,7 @@
 
 # Hashing: 560, 1074, 347(Bucket Sort), 205, 128, 49, 3346, 3347, | 3461, 2048
 
-# Linked List: 237, 2095, 876, 328 ,142, 382, 109, 23
+# Linked List: 237, 2095, 876, 328 ,142, 382, 109, 23, 1171, 1721
 
 from collections import defaultdict, deque, Counter
 from typing import List
