@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def mark_guarded(self, row: int, col: int, grid: List[List[int]]) -> None:
         for i in range(row - 1, -1, -1):
