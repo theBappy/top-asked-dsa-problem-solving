@@ -1,6 +1,6 @@
-# Daily Challenges: 1578,3318
+# Daily Challenges: 2169
 
-# Stack & Queue: 901, 1047, 224, 921, 739, 20, 2390, 71, 946, 1441, 735, 132
+# Stack & Queue: 901, 1047, 224, 921, 739, 20, 2390, 71, 946, 1441, 735, 132, 1249, 1963
 
 from collections import defaultdict, deque, Counter
 from typing import List
