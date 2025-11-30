@@ -1,5 +1,5 @@
 // Daily Challenges: 
 
-// Graphs: 
+// Graphs: 433, 127
 
 
