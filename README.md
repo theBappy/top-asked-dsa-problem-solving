@@ -11,7 +11,7 @@ Welcome to my personal repository where I solve a wide variety of **Data Structu
 This repository is organized by **pattern**, **topic**, and **difficulty**, making it easier to browse and learn effectively.
 
 ### ✅ Solved Problems Breakdown
-- ✅ Total Solved: `500+`
+- ✅ Total Solved: `700+`
 - 💻 Platform: [LeetCode](https://leetcode.com/)
 - 🗓️ Frequency: Daily Problem-Solving Habit (1–3 problems/day)
 
