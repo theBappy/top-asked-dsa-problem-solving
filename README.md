@@ -1,4 +1,5 @@
-<img width="1536" height="1024" alt="dsa" src="https://github.com/user-attachments/assets/6e33ded4-953e-4fb1-8288-c618719a8cc9" />
+<!-- <img width="1536" height="1024" alt="dsa" src="https://github.com/user-attachments/assets/6e33ded4-953e-4fb1-8288-c618719a8cc9" /> -->
+<img width="1024" height="1024" alt="Generated Image December 12, 2025 - 10_27AM" src="https://github.com/user-attachments/assets/3c947cb1-835a-4665-86e0-c0d228bb102a" />
 
 # 🧠 Data Structures & Algorithms — Problem Solving Journey
 
@@ -10,8 +11,10 @@ Welcome to my personal repository where I solve a wide variety of **Data Structu
 
 This repository is organized by **pattern**, **topic**, and **difficulty**, making it easier to browse and learn effectively.
 
+
+
 ### ✅ Solved Problems Breakdown
-- ✅ Total Solved: `500+`
+- ✅ Total Solved: `700+`
 - 💻 Platform: [LeetCode](https://leetcode.com/)
 - 🗓️ Frequency: Daily Problem-Solving Habit (1–3 problems/day)
 
