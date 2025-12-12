@@ -9,6 +9,8 @@ Welcome to my personal repository where I solve a wide variety of **Data Structu
 ## 📚 What's Inside?
 
 This repository is organized by **pattern**, **topic**, and **difficulty**, making it easier to browse and learn effectively.
+<img width="1024" height="1024" alt="Generated Image December 12, 2025 - 10_27AM" src="https://github.com/user-attachments/assets/3c947cb1-835a-4665-86e0-c0d228bb102a" />
+
 
 ### ✅ Solved Problems Breakdown
 - ✅ Total Solved: `700+`
