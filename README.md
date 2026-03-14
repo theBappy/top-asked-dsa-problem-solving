@@ -97,29 +97,3 @@ This repository is organized by **pattern**, **topic**, and **difficulty**, maki
 ---
 
 
-
-
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/theBappy/top-asked-dsa-problem-solving/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
-## Math
-|  |
-| ------- |
-| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/theBappy/top-asked-dsa-problem-solving/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
-## Binary Search
-|  |
-| ------- |
-| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/theBappy/top-asked-dsa-problem-solving/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
-## Greedy
-|  |
-| ------- |
-| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/theBappy/top-asked-dsa-problem-solving/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/theBappy/top-asked-dsa-problem-solving/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
-<!---LeetCode Topics End-->
